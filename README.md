@@ -186,7 +186,7 @@ All published pipelines have a REST endpointwhich can be triggered a run of the 
 ![Published Pipeline Overview showing a REST endpoint and an ACTIVE status](images/Pipeline6.JPG?raw=true "Published Pipeline Overview showing a REST endpoint and an ACTIVE status")
 ![ML studio showing the pipeline endpoint as Active](images/Active_pipeline.JPG?raw=true "ML studio showing the pipeline endpoint as Active")
 
-**Jupyter Notebook: RunDetails Widget shows the step runs** 
+**Jupyter Notebook: RunDetails Widget shows the step runs**   
 
 RunDetails class can be used to show the running and non-running nodes of the pipeline.
 
@@ -194,7 +194,7 @@ RunDetails class can be used to show the running and non-running nodes of the pi
 
 ![Jupyter Notebook: RunDetails Widget shows the step runs2](images/Pipeline2.JPG?raw=true "Jupyter Notebook: RunDetails Widget shows the step runs2")
 
-**In ML Studio: Completed run** 
+**In ML Studio: Completed run**  
 The following screenshots show the completed pipeline runs that are triggered using Jupyter notebook. It involves running AutoML and deploying its best model.
 
 ![In ML Studio](images/Pipeline5.JPG?raw=true "In ML Studio")
