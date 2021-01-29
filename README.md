@@ -60,7 +60,7 @@ Apache Benchmark(ab) is used for load testing and benchmarking tool for Hypertex
 The Jupyter Notebook is run with the same keys, URI, dataset, cluster, and model names as what has been created.
 
 **Documentation:**
-The documentation includes: 1. the [screencast](https://youtu.be/hswOvC9mt0I) that shows the entire process of the working ML application; and 2. this README file that describes the project and documents the main steps.
+The documentation includes: 1. the [screencast](https://youtu.be/WLHflv8NNBk) that shows the entire process of the working ML application; and 2. this README file that describes the project and documents the main steps.
 
 ***
 
@@ -205,7 +205,7 @@ The following screenshots show the completed pipeline runs that are triggered us
 ***
 ## Screen Recording
 
-The screen recording can be found [here](https://youtu.be/hswOvC9mt0I) and it shows the project in action. More specifically, the screencast demonstrates:
+The screen recording can be found [here](https://youtu.be/WLHflv8NNBk) and it shows the project in action. More specifically, the screencast demonstrates:
 
 * The working deployed ML model endpoint
 * The deployed Pipeline
