@@ -195,6 +195,7 @@ RunDetails class can be used to show the running and non-running nodes of the pi
 ![Jupyter Notebook: RunDetails Widget shows the step runs2](images/Pipeline2.JPG?raw=true "Jupyter Notebook: RunDetails Widget shows the step runs2")
 
 **In ML Studio: Completed run** 
+The following screenshots show the completed pipeline runs that are triggered using Jupyter notebook. It involves running AutoML and deploying its best model.
 
 ![In ML Studio](images/Pipeline5.JPG?raw=true "In ML Studio")
 
