@@ -116,7 +116,8 @@ We can interact with the deployed model endpoint HTTP API service by GET and POS
 I enabled _Application Insights_ by adding the line `service.update(enable_app_insights=True)` to the `logs.py`:
 
 **"Application Insights" enabled in the _logs.py_**
-Application Insights is a feature of Azure Monitor and can be used to monitor your deployed endpoints. It will automatically detect performance anomalies, and help us to understand what users actually do with the deployed endpoint.
+Application Insights is a feature of Azure Monitor and can be used to monitor your deployed endpoints. It will automatically detect performance anomalies, and help us to understand what users actually do with the deployed endpoint.  
+
 !["Application Insights" enabled](images/model_deploy3.JPG?raw=true "'Application Insights' enabled")
 
 Screenshot of the tab running "Application Insights":
@@ -174,7 +175,7 @@ In this second part of the project, a Jupyter notebook is used with the same dat
 
 The purpose of this step is to create, publish and consume a pipeline using the Azure Python SDK.  
 
-**The Pipelines section of Azure ML Studio**
+**The Pipelines section of Azure ML Studio**  
 The Pipeline is created using the notebook in this project. Subtasks are encapsulated as a series of steps within the pipeline. An Azure Machine Learning pipeline can be as simple as one that calls a Python script to an automatic Data Orchestration and Model Orchestration. However, in this project we just use Mode Orchestration.  
 
 ![Pipeline has been created](images/Pipeline1.JPG?raw=true "Pipeline has been created")
