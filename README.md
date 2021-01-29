@@ -80,9 +80,8 @@ I select the Bank-marketing dataset and in the second screen, I make the followi
 
 * Task: _Classification_
 * Primary metric: _Accuracy_
-* _Explain best model_
-* _Exit criterion_: 1 hour in _Job training time (hours)_
-* _Max concurrent iterations_: 5. Please note that the number of concurrent operations **MUST** always be less than the maximum number of nodes configured in the cluster.
+* Exit criterion: 1 hour in _Job training time (hours)_
+* Max concurrent iterations: 5. Please note that the number of concurrent operations **MUST** always be less than the maximum number of nodes configured in the cluster.
 
 ![Creating a new Automated ML run](images/BuildingAutoML.PNG?raw=true "Creating a new Automated ML run")
 
@@ -109,6 +108,7 @@ The _Data guardrails_ tab, flags data for having an imbalanced output column:
 
 The best model is deployed with _Authentication_ enabled and using the _Azure Container Instance_ (ACI).
 We can interact with the deployed model endpoint HTTP API service by GET and POST requests.
+
 ![Deployment](images/model_deploy.JPG?raw=true "Deployment")
 
 ### **Step 4: Enable Application Insights**
@@ -116,6 +116,7 @@ We can interact with the deployed model endpoint HTTP API service by GET and POS
 I enabled _Application Insights_ by adding the line `service.update(enable_app_insights=True)` to the `logs.py`:
 
 **"Application Insights" enabled in the _logs.py_**
+
 Application Insights is a feature of Azure Monitor and can be used to monitor your deployed endpoints. It will automatically detect performance anomalies, and help us to understand what users actually do with the deployed endpoint.  
 
 !["Application Insights" enabled](images/model_deploy3.JPG?raw=true "'Application Insights' enabled")
